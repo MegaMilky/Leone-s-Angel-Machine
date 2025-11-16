@@ -3,10 +3,238 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0; url=README.md">
     <title>Leonne's Angel Machine</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #1a1a2e;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #eee;
+            overflow: hidden;
+        }
+        
+        #network {
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .node {
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .node:hover {
+            filter: brightness(1.5);
+        }
+        
+        .link {
+            stroke: #444;
+            stroke-opacity: 0.3;
+        }
+        
+        .label {
+            fill: #eee;
+            font-size: 10px;
+            pointer-events: none;
+            text-anchor: middle;
+        }
+        
+        #info {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(26, 26, 46, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 300px;
+            border: 1px solid #444;
+        }
+        
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #00d4ff;
+        }
+        
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(26, 26, 46, 0.9);
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #444;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+            font-size: 12px;
+        }
+        
+        .legend-color {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+    </style>
 </head>
 <body>
-    <p>Redirecting to <a href="README.md">README.md</a>...</p>
+    <div id="info">
+        <h1>🔮 Leonne's Angel Machine</h1>
+        <p>Click nodes to navigate</p>
+    </div>
+    
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-color" style="background: #ff6b9d;"></div>
+            <span>Archetypes</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #feca57;"></div>
+            <span>Orphans</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #00d2d3;"></div>
+            <span>Philosophy</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #a29bfe;"></div>
+            <span>Rituals</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #00b894;"></div>
+            <span>Structure</span>
+        </div>
+    </div>
+    
+    <svg id="network"></svg>
+    
+    <script>
+        const nodes = [
+            {id: 'README.md', group: 'doc', color: '#00d4ff'},
+            {id: 'Shadow-Demon-Providence.md', group: 'archetype', color: '#ff6b9d'},
+            {id: 'Michael, The KlockWork Angel.md', group: 'archetype', color: '#ff6b9d'},
+            {id: 'Taylor, Devil of Desire.md', group: 'archetype', color: '#ff6b9d'},
+            {id: 'Osiris, Arch Angel Of Omen..md', group: 'archetype', color: '#ff6b9d'},
+            {id: 'The Blind.md', group: 'archetype', color: '#ff6b9d'},
+            {id: 'Passion.md', group: 'philosophy', color: '#00d2d3'},
+            {id: 'Patience.md', group: 'philosophy', color: '#00d2d3'},
+            {id: 'Prophecy.md', group: 'philosophy', color: '#00d2d3'},
+            {id: 'The Material.md', group: 'philosophy', color: '#00d2d3'},
+            {id: 'There Are No Rules.md', group: 'philosophy', color: '#00d2d3'},
+            {id: 'Amnesia.md', group: 'philosophy', color: '#00d2d3'},
+            {id: 'Counterspell-Playlist.md', group: 'ritual', color: '#a29bfe'},
+            {id: 'Guiding-Prompt.md', group: 'ritual', color: '#a29bfe'},
+            {id: 'Angel Numbers..md', group: 'ritual', color: '#a29bfe'},
+            {id: 'OrphanIndex.md', group: 'structure', color: '#00b894'},
+            {id: 'INDEX.md', group: 'structure', color: '#00b894'},
+            {id: '[Make.md', group: 'structure', color: '#00b894'},
+            {id: 'Orphan_0.md', group: 'orphan', color: '#feca57'},
+            {id: 'Orphan_1.md', group: 'orphan', color: '#feca57'},
+            {id: 'Orphan_...', group: 'orphan', color: '#feca57'}
+        ];
+        
+        const links = [
+            {source: 'README.md', target: 'INDEX.md'},
+            {source: 'README.md', target: 'Shadow-Demon-Providence.md'},
+            {source: 'Shadow-Demon-Providence.md', target: 'Passion.md'},
+            {source: 'Shadow-Demon-Providence.md', target: 'Patience.md'},
+            {source: 'Michael, The KlockWork Angel.md', target: 'Prophecy.md'},
+            {source: 'Taylor, Devil of Desire.md', target: 'Passion.md'},
+            {source: 'OrphanIndex.md', target: 'Orphan_0.md'},
+            {source: 'OrphanIndex.md', target: 'Orphan_1.md'},
+            {source: 'OrphanIndex.md', target: 'Orphan_...'},
+            {source: 'INDEX.md', target: 'OrphanIndex.md'},
+            {source: 'Counterspell-Playlist.md', target: 'Guiding-Prompt.md'},
+            {source: 'The Material.md', target: 'There Are No Rules.md'},
+            {source: 'Osiris, Arch Angel Of Omen..md', target: 'Prophecy.md'},
+            {source: 'The Blind.md', target: 'Amnesia.md'},
+            {source: 'Angel Numbers..md', target: 'OrphanIndex.md'}
+        ];
+        
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+        
+        const svg = d3.select('#network')
+            .attr('width', width)
+            .attr('height', height);
+        
+        const simulation = d3.forceSimulation(nodes)
+            .force('link', d3.forceLink(links).id(d => d.id).distance(100))
+            .force('charge', d3.forceManyBody().strength(-300))
+            .force('center', d3.forceCenter(width / 2, height / 2));
+        
+        const link = svg.append('g')
+            .selectAll('line')
+            .data(links)
+            .enter().append('line')
+            .attr('class', 'link')
+            .attr('stroke-width', 1);
+        
+        const node = svg.append('g')
+            .selectAll('circle')
+            .data(nodes)
+            .enter().append('circle')
+            .attr('class', 'node')
+            .attr('r', d => d.id === 'README.md' ? 15 : 8)
+            .attr('fill', d => d.color)
+            .on('click', (event, d) => {
+                window.location.href = d.id;
+            })
+            .call(d3.drag()
+                .on('start', dragstarted)
+                .on('drag', dragged)
+                .on('end', dragended));
+        
+        const label = svg.append('g')
+            .selectAll('text')
+            .data(nodes)
+            .enter().append('text')
+            .attr('class', 'label')
+            .text(d => d.id.replace('.md', '').substring(0, 15))
+            .attr('dy', 20);
+        
+        simulation.on('tick', () => {
+            link
+                .attr('x1', d => d.source.x)
+                .attr('y1', d => d.source.y)
+                .attr('x2', d => d.target.x)
+                .attr('y2', d => d.target.y);
+            
+            node
+                .attr('cx', d => d.x)
+                .attr('cy', d => d.y);
+            
+            label
+                .attr('x', d => d.x)
+                .attr('y', d => d.y);
+        });
+        
+        function dragstarted(event) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            event.subject.fx = event.subject.x;
+            event.subject.fy = event.subject.y;
+        }
+        
+        function dragged(event) {
+            event.subject.fx = event.x;
+            event.subject.fy = event.y;
+        }
+        
+        function dragended(event) {
+            if (!event.active) simulation.alphaTarget(0);
+            event.subject.fx = null;
+            event.subject.fy = null;
+        }
+    </script>
 </body>
 </html>
