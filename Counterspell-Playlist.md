@@ -10,7 +10,7 @@
 ### 2. SLEEP PARALYSIS DEMON (Ethan Bortnick) — Des
 *I see the horror, name it, and survive it. The friend/antithesis who stares down the nightmare and makes art from the unnameable.*
 
-### 3. Providence (Poor Man's Poison) — Synthesis
+### 3. Providence (Poor Man’s Poison) — Synthesis
 *Grace, unexpected guidance, or fated connection arises from honest collaboration. The gift only born when both sides arrive with open eyes and shared wounds.*
 
 ### 4. Money Game, Pt. 2 (Ren) — The Seal
