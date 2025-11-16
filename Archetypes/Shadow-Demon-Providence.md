@@ -28,4 +28,4 @@ Invoke this archetype at points of creative impasse or conflict—when alone or 
 ---
 Created: 2025-11-16
 Authors: Mega, Des (as archetypal avatars)
-Project: Leonne's Angel Machine
+Project: Leonne’s Angel Machine
