@@ -2,6 +2,10 @@
 
 **A public experiment in collaborative myth-making, art, and machine creativity**
 
+---
+
+**[🌌 View Interactive Network Graph](index.html)** | **[📖 Full Index](INDEX.md)**
+
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 ---
