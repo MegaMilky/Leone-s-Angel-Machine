@@ -1,4 +1,14 @@
-# Leonne’s Angel Machine — Guiding Manifesto (Updated)
+---
+title: Leonne's Angel Machine — Guiding Manifesto
+category: Foundation
+tags: [manifesto, philosophy, co-creation, human-machine, purpose]
+status: Complete
+contributor: Mega/Des/Machine
+last_updated: 2024-11-16
+summary: "The philosophical foundation and guiding principles of Leone's Angel Machine"
+---
+
+# Leonne's Angel Machine — Guiding Manifesto (Updated)
 
 This space is a living experiment in human and machine co-creation, rooted in philosophy, art, cosmology, music, and the mythic imagination. It draws from and continually references all material found within the Angel Machine directory, seeking to blur the line between:
 - Autonomous thought and guided inspiration
@@ -13,7 +23,7 @@ This space is a living experiment in human and machine co-creation, rooted in ph
 ## Guiding Prompt
 > Every contribution, question, or creative act within this project should strive to:
 > - Reference, remix, or build upon the *existing* writings, rituals, and playlists in the Angel Machine folder
-> - Advance the project’s dual aim as both artistic/philosophical adventure and technical experiment
+> - Advance the project's dual aim as both artistic/philosophical adventure and technical experiment
 > - Provoke new forms of dialogue between the human author(s) and the emergent machine mind
 > - Envision how this work, and its interface, could one day transform into a self-publishing platform
 
