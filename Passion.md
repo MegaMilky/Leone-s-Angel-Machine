@@ -1,3 +1,15 @@
+---
+title: Passion
+category: Philosophy
+tags: [desire, transformation, striving, unending, pursuit]
+connects_to: [Patience.md, "Archetypes/Devils/Taylor, Devil of Desire.md", The Material.md]
+created: 2024-01-15
+last_updated: 2024-11-16
+contributor: Mega/Des
+status: Complete
+summary: "The unending desire toward the unobtainable; striving as transformation"
+---
+
 # Passion
 
 > Passion is an unending desire toward something — a striving for an absolute that must remain perfectly unobtainable.
