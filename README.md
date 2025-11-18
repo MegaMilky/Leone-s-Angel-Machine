@@ -114,7 +114,7 @@ This project uses the **CC0 1.0 Universal Public Domain Dedication**. Use, remix
 
 ## Authors
 
-- Initiated by **Mega, Des, and machine mind(s)**
+- Initiated by **Mega, Mocha, and machine mind(s)**
 - **[Add your name/project here if you fork, remix, or build upon Angel Machine!]**
 
 ## Community
