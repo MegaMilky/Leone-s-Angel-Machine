@@ -9,7 +9,7 @@ tags:
 
 # Orphan File 38
 
-- Original File: [[_) ) ) ).md](../../_)-)-)-).md)
+- Original File: [[_) ) ) ).md](..\Blackbook\_.md)-)-)-).md)
 - Dream Number: 97
 - Discovery Date: 2025-11-09 16:39
 
@@ -20,7 +20,7 @@ tags:
 
 ## Navigation
 - [Return to Orphan Index](./OrphanIndex.md#)
-- [Go to Original File](../../_)-)-)-).md)
+- [Go to Original File](..\Blackbook\_.md)-)-)-).md)
 
 ---
 > This file was marked as an orphan by Providence.

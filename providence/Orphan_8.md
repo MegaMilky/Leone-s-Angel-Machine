@@ -9,7 +9,7 @@ tags:
 
 # Orphan File 8
 
-- Original File: [({IT.md](../../({it.md)
+- Original File: [({IT.md](..\.archive\empty\({IT.md)
 - Dream Number: 87
 - Discovery Date: 2025-11-09 16:35
 
@@ -20,7 +20,7 @@ tags:
 
 ## Navigation
 - [Return to Orphan Index](./OrphanIndex.md#)
-- [Go to Original File](../../({it.md)
+- [Go to Original File](..\.archive\empty\({IT.md)
 
 ---
 > This file was marked as an orphan by Providence.

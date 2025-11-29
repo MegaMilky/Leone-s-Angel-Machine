@@ -1,15 +1,8 @@
-Look At The Liar Of The Mirror.
-Look At Her Devilish Form.
-See Not An Angel, Nor a Goddess In Disguise.
-You Know Its Name.
-Reflection, Shadows, & Secrets.
-Staying Still Within That Moonlit Lake.
-Don't Let The Skin Rake.
-Stay Insatiate.
-Demand What You Must Take.
-And Beg To be Given What You Shouldn't.
-A Thief Must Be Alert In The Night.
-But A Saint Must Be Aware Of Others Plight.
-So Take Flight. Look Into The Sky.
-See My Mirror, Only Mine.
-[KHAOS](../%7B%7B%7D%7D/KHAOS.md##)
+---
+merged_into: C:\Users\colli\OneDrive\Documents\Michaels Onedrive\OneDrive\Leo's Angel Machine\Leone-s-Angel-Machine\{{}}[[\}}\KHAOS NOTES\Mirror.md
+date: 2025-11-28T20:21:51Z
+---
+
+This file has been merged into [Mirror.md](../../../../{{}}[[/}}/KHAOS NOTES/Mirror.md).
+
+Original content preserved in backup created by this tool.

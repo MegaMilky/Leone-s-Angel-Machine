@@ -1,16 +1,8 @@
 ---
-title: Fragment Orphans - Raw Seeds
-category: Orphan Archive
-tags: [orphans, fragments, seeds]
-status: Archive Index
+merged_into: C:\Users\colli\OneDrive\Documents\Michaels Onedrive\OneDrive\Leo's Angel Machine\Leone-s-Angel-Machine\Leone-s-Angel-Machine\README.md
+date: 2025-11-28T20:32:22Z
 ---
 
-# Fragment Orphans: Raw Seeds
+This file has been merged into [README.md](../../../README.md).
 
-These orphans are poetic scraps, unfinished thoughts, and raw material.
-
-## Philosophy
-
-Fragments are the building blocks of meaning. Each one contains potential.
-
-See `../../../_ORPHAN_TAXONOMY.md` for classification guidance.
+Original content preserved in backup created by this tool.

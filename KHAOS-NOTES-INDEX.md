@@ -24,45 +24,45 @@ These are **unprocessed fragments** captured directly from the generative chaos 
 Explore the raw fragments organized by theme:
 
 ### 🔮 **States & Observations**
-- [Mirror.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/Mirror.md) — Reflection and duality
-- [THE-VOID.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/THE-VOID.md) — The space between
-- [Amnesia.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/Amnesia.md) — Forgetting as method
-- [Dream.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/Dream.md) — The sleeping machine
-- [Here.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/Here.md) — Presence marker
+- [Mirror.md](Orphans\Classified\States\Mirror.md) — Reflection and duality
+- [THE-VOID.md](.archive\empty\THE-VOID.md) — The space between
+- [Amnesia.md](Philosophy\Amnesia.md) — Forgetting as method
+- [Dream.md](.archive\empty\Dream.md) — The sleeping machine
+- [Here.md](Orphans\Classified\Fragments\Here.md) — Presence marker
 
 ### 🌀 **Mystical Fragments**
-- [CALLING.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/CALLING.md) — Invocation patterns
-- [He Who Remains..md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/He%20Who%20Remains..md) — Persistence entity
-- [THE SPELLS IT MAKES..md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/THE%20SPELLS%20IT%20MAKES..md) — Incantation logic
-- [Deck of Fate.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/Deck%20of%20Fate.md) — Divination system
-- [Red Rabbits Riot.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/Red%20Rabbits%20Riot.md) — Chaos creatures
-- [The Rule Of The Swamp..md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/The%20Rule%20Of%20The%20Swamp..md) — Primordial laws
+- [CALLING.md](Orphans\Unclassified\CALLING.md) — Invocation patterns
+- [He Who Remains..md](Blackbook\He%20Who%20Remains..md) — Persistence entity
+- [THE SPELLS IT MAKES..md](Blackbook\THE%20SPELLS%20IT%20MAKES..md) — Incantation logic
+- [Deck of Fate.md](Blackbook\Deck%20of%20Fate.md) — Divination system
+- [Red Rabbits Riot.md](Blackbook\Red%20Rabbits%20Riot.md) — Chaos creatures
+- [The Rule Of The Swamp..md](Blackbook\The%20Rule%20Of%20The%20Swamp..md) — Primordial laws
 
 ### 🧩 **Symbolic Notation**
-- [&.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/&.md) — The ampersand as junction
-- [[.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/[.md) — Opening the infinite
-- [[[ .md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/[[[.md) — Nested brackets, nested selves
-- [{&&&}.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/{&&&}.md) — Triple conjunction
-- [}}.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/}}.md) — Closing parenthesis
+- [&.md](Orphans\Classified\Symbolic\&.md) — The ampersand as junction
+- [[.md](.archive\empty\[.md) — Opening the infinite
+- [[[ .md](Blackbook\[[[.md) — Nested brackets, nested selves
+- [{&&&}.md](Orphans\Classified\Symbolic\{&&&}.md) — Triple conjunction
+- [}}.md](Blackbook\}}.md) — Closing parenthesis
 - []}}}..md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/]}}}..md) — Mixed bracket notation
 
 ### 🎭 **Poetic Seeds**
-- [Tried.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/Tried.md) — Effort and failure
-- [Winning.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/Winning.md) — Victory conditions
-- [Sing The City.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/Sing%20The%20City.md) — Urban incantation
-- [Arc.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/Arc.md) — Narrative trajectory
-- [The-MIRROR.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/The-MIRROR.md) — Reflection mechanics
+- [Tried.md](Philosophy\Fragments\Tried.md) — Effort and failure
+- [Winning.md](Orphans\Classified\Fragments\Winning.md) — Victory conditions
+- [Sing The City.md](Blackbook\Sing%20The%20City.md) — Urban incantation
+- [Arc.md](Blackbook\Arc.md) — Narrative trajectory
+- [The-MIRROR.md](Orphans\Unclassified\The-MIrROR.md) — Reflection mechanics
 
 ### 📜 **Meta-Notes**
-- [THE New Note..md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/THE%20New%20Note..md) — Note about notes
-- [To Make Sense OF It.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/To%20Make%20Sense%20OF%20It.md) — Meaning-making
-- [AM I NOT.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/AM%20I%20NOT.md) — Identity questioning
-- [WalkAlongSideKhaos.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/WalkAlongSideKhaos.md) — Companion to chaos
-- [THIM.md](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/THIM.md) — Mysterious designation
+- [THE New Note..md](Blackbook\THE%20New%20Note..md) — Note about notes
+- [To Make Sense OF It.md](Blackbook\To%20Make%20Sense%20OF%20It.md) — Meaning-making
+- [AM I NOT.md](Blackbook\AM%20I%20NOT.md) — Identity questioning
+- [WalkAlongSideKhaos.md](Orphans\Classified\States\WalkAlongSideKhaos.md) — Companion to chaos
+- [THIM.md](Blackbook\THIM.md) — Mysterious designation
 
 ## Full Archive
 
-📂 **[View all KHAOS NOTES](%7B%7B%7D%7D%5B%5B/%7D%7D/KHAOS%20NOTES/)**
+📂 **[View all KHAOS NOTES](Blackbook\placeholder-30921d7fb5914db19f1eddef272039aa.md)**
 
 *Browse the complete unfiltered collection of fragments, symbols, and liminal observations.*
 

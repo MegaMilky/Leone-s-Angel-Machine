@@ -1,16 +1,8 @@
 ---
-title: Unclassified Orphans
-category: Orphan Archive
-tags: [orphans, unclassified, pending]
-status: Archive Index
+merged_into: C:\Users\colli\OneDrive\Documents\Michaels Onedrive\OneDrive\Leo's Angel Machine\Leone-s-Angel-Machine\Leone-s-Angel-Machine\README.md
+date: 2025-11-28T20:32:22Z
 ---
 
-# Unclassified Orphans
+This file has been merged into [README.md](../../README.md).
 
-These orphans are awaiting classification or synthesis.
-
-## Purpose
-
-A temporary holding space for orphans whose category is uncertain.
-
-See `../../../_ORPHAN_TAXONOMY.md` for guidance on synthesis and graduation.
+Original content preserved in backup created by this tool.

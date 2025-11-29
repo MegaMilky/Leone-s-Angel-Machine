@@ -1,16 +1,8 @@
 ---
-title: State Orphans - Experiences & Conditions
-category: Orphan Archive
-tags: [orphans, states, experiences]
-status: Archive Index
+merged_into: C:\Users\colli\OneDrive\Documents\Michaels Onedrive\OneDrive\Leo's Angel Machine\Leone-s-Angel-Machine\Leone-s-Angel-Machine\README.md
+date: 2025-11-28T20:32:22Z
 ---
 
-# State Orphans: Experiences & Conditions
+This file has been merged into [README.md](../../../README.md).
 
-These orphans describe inner states, conditions, and experiences.
-
-## Philosophy
-
-States are the spaces between moments. These orphans capture the texture of existence.
-
-See `../../../_ORPHAN_TAXONOMY.md` for classification guidance.
+Original content preserved in backup created by this tool.

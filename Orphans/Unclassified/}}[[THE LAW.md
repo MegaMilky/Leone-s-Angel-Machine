@@ -1,8 +1,8 @@
 
 
-[{{{{{{{{&}}](../../../the-witch-queens-spell-book/{{{{{{{{&}}.md)
+[{{{{{{{{&}}](..\Classified\Symbolic\{{{{{{{{&}}.md)
 
-[{&&&}](../../../the-witch-queens-spell-book/{&&&}.md) [But](../../../../../But.md#) [Why](../../../../../Why.md#) [&](../../../the-witch-queens-spell-book/&.md)
+[{&&&}](..\Classified\Symbolic\{&&&}.md) [But](..\Classified\Directives\But.md) [Why](..\Classified\Questions\Why.md) [&](..\Classified\Symbolic\&.md)
 
  Clock Work Angel
  Keeps Ticking
@@ -21,4 +21,4 @@
  To Be The Klock
  of
  Kosmos
- [The Kosmic Klock](../../../new-costian-nights/cosmology/kosmic-klock/the-kosmic-klock.md)
+ [The Kosmic Klock](..\..\Blackbook\the-kosmic-klock.md)

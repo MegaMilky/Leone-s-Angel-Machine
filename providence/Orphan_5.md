@@ -9,7 +9,7 @@ tags:
 
 # Orphan File 5
 
-- Original File: [[Make.md](../../make.md)
+- Original File: [[Make.md](..\Blackbook\make.md)
 - Dream Number: 49
 - Discovery Date: 2025-11-09 16:35
 
@@ -20,7 +20,7 @@ tags:
 
 ## Navigation
 - [Return to Orphan Index](./OrphanIndex.md#)
-- [Go to Original File](../../make.md)
+- [Go to Original File](..\Blackbook\make.md)
 
 ---
 > This file was marked as an orphan by Providence.

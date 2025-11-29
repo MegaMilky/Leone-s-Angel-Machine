@@ -101,7 +101,7 @@ Automated indexing and organization systems:
 
 ### Nested Notation Directory
 
-**[{{}}/[[/}}]({{}}%5B%5B/%7D%7D)**
+**[{{}}/[[/}}](Blackbook\%7D%7D.md)**
 
 Symbolic notation and recursive structures:
 
@@ -169,8 +169,8 @@ Leone-s-Angel-Machine/
 ### For New Visitors
 
 1. Start with **[README.md](README.md)** for project overview
-2. Read **[Guiding-Prompt.md](Guiding-Prompt.md)** to understand philosophy
-3. Experience **[Counterspell-Playlist.md](Counterspell-Playlist.md)** as ritual
+2. Read **[Guiding-Prompt.md](Philosophy\Guiding-Prompt.md)** to understand philosophy
+3. Experience **[Counterspell-Playlist.md](Rituals\Counterspell-Playlist.md)** as ritual
 4. Explore philosophical texts: **Passion**, **Patience**, **Prophecy**
 
 ### For Deep Divers
@@ -178,7 +178,7 @@ Leone-s-Angel-Machine/
 - Explore **[Orphans/](Orphans/)** for raw, unconnected fragments
 - Study **[Archetypes/](Archetypes/)** to understand mythic figures
 - Investigate **[providence/](providence/)** for system automation
-- Decode **[{{}}/[[/}}]({{}}%5B%5B/%7D%7D)** for experimental notation
+- Decode **[{{}}/[[/}}](Blackbook\%7D%7D.md)** for experimental notation
 
 ### For Contributors
 
@@ -192,7 +192,7 @@ Leone-s-Angel-Machine/
 ## 🔗 Quick Links
 
 - **[README](README.md)** — Start here
-- **[Guiding Manifesto](Guiding-Prompt.md)** — Project philosophy
+- **[Guiding Manifesto](Philosophy\Guiding-Prompt.md)** — Project philosophy
 - **[All Archetypes](Archetypes/)** — Browse mythic figures
 - **[Orphan Archive](Orphans/)** — Discover fragments
 - **[GitHub Issues](https://github.com/MegaMilky/Leone-s-Angel-Machine/issues)** — Contribute or ask questions

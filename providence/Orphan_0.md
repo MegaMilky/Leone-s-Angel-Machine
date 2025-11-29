@@ -1,27 +1,8 @@
 ---
-aliases:
-  - Orphan File 0
-tags:
-  - orphan-file
-  - dream-91
-  - providence
+merged_into: C:\Users\colli\OneDrive\Documents\Michaels Onedrive\OneDrive\Leo's Angel Machine\Leone-s-Angel-Machine\Leone-s-Angel-Machine\Orphans\Numbered\Orphan_0.md
+date: 2025-11-29T02:32:42.268085Z
 ---
 
-# Orphan File 0
+This file has been merged into [Orphan_0.md](../Orphans/Numbered/Orphan_0.md).
 
-- Original File: [[.md](../../.md)
-- Dream Number: 91
-- Discovery Date: 2025-11-09 16:39
-
-## Properties
-- Assignment ID: 0
-- Dream Pattern: 91
-- File Path: `[.md`
-
-## Navigation
-- [Return to Orphan Index](./OrphanIndex.md#)
-- ../../[Go to Original File](.md)
-
----
-> This file was marked as an orphan by Providence.
-> It may need integration into the wider network of notes.
+Original content preserved in backup created by this tool.

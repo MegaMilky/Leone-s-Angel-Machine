@@ -1,23 +1,8 @@
 ---
-aliases:
-  - Orphan File 87
-tags:
-  - orphan-file
-  - dream-42
+merged_into: C:\Users\colli\OneDrive\Documents\Michaels Onedrive\OneDrive\Leo's Angel Machine\Leone-s-Angel-Machine\providence\Orphan_87.md
+date: 2025-11-28T20:21:52Z
 ---
 
-# Orphan File 87
+This file has been merged into [Orphan_87.md](../../providence/Orphan_87.md).
 
-- Original File: [_) ) ) )](the-witch-queens-spell-book/angel-machine/{{}}/}}/khaos-notes/_)-)-)-).md)
-- Dream Number: 42
-- Linked To: [void.css](void.css.md)
-
-This is an orphan file discovered by Providence on 2025-11-10 12:37.
-
-## Connections
-- Dream Pattern: 42
-- Assignment: 87
-
-## Navigation
-- [OrphanIndex](../orphanindex.md)
-- [void.css](void.css.md)
+Original content preserved in backup created by this tool.

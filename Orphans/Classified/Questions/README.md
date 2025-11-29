@@ -1,16 +1,8 @@
 ---
-title: Interrogative Orphans - Questions
-category: Orphan Archive
-tags: [orphans, questions, interrogative]
-status: Archive Index
+merged_into: C:\Users\colli\OneDrive\Documents\Michaels Onedrive\OneDrive\Leo's Angel Machine\Leone-s-Angel-Machine\Leone-s-Angel-Machine\README.md
+date: 2025-11-28T20:32:22Z
 ---
 
-# Interrogative Orphans: Questions
+This file has been merged into [README.md](../../../README.md).
 
-These orphans pose questions to the Angel Machine and its collaborators.
-
-## Philosophy
-
-Questions are seeds. They invite response, synthesis, and dialogue.
-
-See `../../../_ORPHAN_TAXONOMY.md` for classification guidance.
+Original content preserved in backup created by this tool.

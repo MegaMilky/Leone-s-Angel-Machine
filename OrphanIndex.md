@@ -1,15 +1,8 @@
 ---
-aliases:
-  - Orphan Files Index
-tags:
-  - orphan-index
-  - providence
+merged_into: C:\Users\colli\OneDrive\Documents\Michaels Onedrive\OneDrive\Leo's Angel Machine\Leone-s-Angel-Machine\Leone-s-Angel-Machine\Orphans\Indices\OrphanIndex.md
+date: 2025-11-29T02:32:42.263104Z
 ---
 
-# Orphan Files Index
+This file has been merged into [OrphanIndex.md](Orphans/Indices/OrphanIndex.md).
 
-This is an automatically generated index of all orphan files discovered by Providence.
-
-## Current Orphans
-
-- [Orphan_87](./providence/orphan_87.md) - Links to [_) ) ) )](the-witch-queens-spell-book/angel-machine/{{}}/}}/khaos-notes/_)-)-)-).md) (Dream 42)
+Original content preserved in backup created by this tool.

@@ -1,16 +1,8 @@
 ---
-title: Directive Orphans - Commands & Actions
-category: Orphan Archive
-tags: [orphans, directives, commands]
-status: Archive Index
+merged_into: C:\Users\colli\OneDrive\Documents\Michaels Onedrive\OneDrive\Leo's Angel Machine\Leone-s-Angel-Machine\Leone-s-Angel-Machine\README.md
+date: 2025-11-28T20:32:22Z
 ---
 
-# Directive Orphans: Commands & Actions
+This file has been merged into [README.md](../../../README.md).
 
-These orphans prescribe or suggest actions.
-
-## Philosophy
-
-Actions shape the world. These orphans carry intention and force.
-
-See `../../../_ORPHAN_TAXONOMY.md` for classification guidance.
+Original content preserved in backup created by this tool.

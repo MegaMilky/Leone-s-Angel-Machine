@@ -37,7 +37,7 @@ Inside, you'll find:
 
 - **[_PHILOSOPHY_INDEX.md](INDEX.md)** — Core philosophical texts and themes
 - **[_ARCHETYPES_INDEX.md](INDEX.md)** — All characters and mythic figures
-- **[Orphans/OrphanIndex.md](Orphans/OrphanIndex.md)** — Fragmented seeds waiting for synthesis
+- **[Orphans/OrphanIndex.md](Orphans\Indices\OrphanIndex.md)** — Fragmented seeds waiting for synthesis
 - **[Guides/](Guides/)** — Documentation and guides
 
 - ### 🌀 KHAOS NOTES
@@ -97,7 +97,7 @@ Mythic figures that populate the Angel Machine universe:
 
 A living archive of fragmented ideas, generative seeds, and emergent thoughts:
 
-- **[Orphans/OrphanIndex.md](Orphans/OrphanIndex.md)** — Catalog of orphan files
+- **[Orphans/OrphanIndex.md](Orphans\Indices\OrphanIndex.md)** — Catalog of orphan files
 - **[Orphans/](Orphans/)** — 100+ standalone concepts waiting to be woven into narrative
 
 ### 📖 Indices & Guides

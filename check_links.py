@@ -13,7 +13,8 @@ def find_links(content, file_ext):
     elif file_ext == '.html':
         # Match href="url"
         matches = re.findall(r'href=["\']([^"\']+)["\']', content)
-        links.append(matches)
+        # matches is a list of url strings — extend, not append
+        links.extend(matches)
     return links
 
 def check_links(start_dir):
@@ -44,12 +45,20 @@ def check_links(start_dir):
                     # Decode URL encoding
                     url_part = unquote(url_part)
                     
-                    # Resolve path
-                    target_path = (Path(root) / url_part).resolve()
+                    # Resolve path: absolute root-style (starting with '/') -> interpret relative to start_dir
+                    if url_part.startswith('/'):
+                        target_path = (start_dir_path / url_part.lstrip('/')).resolve()
+                    else:
+                        target_path = (Path(root) / url_part).resolve()
                     
                     if not target_path.exists():
+                        try:
+                            src = str(file_path.relative_to(start_dir_path))
+                        except Exception:
+                            src = str(file_path)
+
                         broken_links.append({
-                            'source': str(file_path.relative_to(start_dir_path)),
+                            'source': src,
                             'link': link,
                             'target': str(target_path)
                         })

@@ -9,7 +9,7 @@ tags:
 
 # Orphan File 13
 
-- Original File: [[.md](../../.md)
+- Original File: [[.md](..\Blackbook\placeholder-847b1748da8f496c98ab574e1d4e213d.md)
 - Dream Number: 93
 - Discovery Date: 2025-11-09 16:35
 
@@ -20,7 +20,7 @@ tags:
 
 ## Navigation
 - [Return to Orphan Index](./OrphanIndex.md#)
-- ../../[Go to Original File](.md)
+- ../../[Go to Original File](..\Blackbook\placeholder-c95e27d622da46869498503d7706dfb2.md)
 
 ---
 > This file was marked as an orphan by Providence.

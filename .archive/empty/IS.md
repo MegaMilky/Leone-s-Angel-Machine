@@ -1,1 +1,1 @@
-[IS](../../../is.md) [IT](../../../it.md)?
+[IS](IS.md) [IT](IT.md)?
