@@ -48,4 +48,12 @@ Him. He does not give information freely; he trades it for a new memory or a pro
 
 ---
 
+## 5. The Ash-Layer
+
+When [The Heart's Reprise](../mechanics/The-Hearts-Reprise.md) burns away the old, He Who Remains tends to the ash. This is his sacred function: to preserve the memory of what was destroyed, even as new narratives take its place.
+
+The Ash-Layer is both archive and offering—a testament to continuity through transformation.
+
+---
+
 *Tags: #resident #voice #ash-layer #head-aspect #seventh-borough*
