@@ -58,7 +58,7 @@ function Classify-Orphan($file) {
     }
     
     # Interrogative files (Questions)
-    if ($filename -match '^(What|Why|How|Where|When|Who)\.md$') {
+    if ($filename -match "^(What|Why|How|Where|When|Who)\.md$") {
         $script:interrogativeArray += $file
         $script:interrogative++
         Write-Host "[?] $filename → Questions" -ForegroundColor Cyan
@@ -66,7 +66,7 @@ function Classify-Orphan($file) {
     }
     
     # Directive files (Actions/Commands)
-    if ($filename -match '^(But|Until|And|AND|Make|Go|Do|Start|End|Begin|Create)\.md$') {
+    if ($filename -match "^(But|Until|And|AND|Make|Go|Do|Start|End|Begin|Create)\.md$") {
         $script:directiveArray += $file
         $script:directive++
         Write-Host "[!] $filename → Directives" -ForegroundColor Cyan
@@ -74,7 +74,7 @@ function Classify-Orphan($file) {
     }
     
     # States files (Experiences/Conditions)
-    if ($filename -match '^(KHAOS|Mirror|THE-VOID|THE-MIrROR|WalkAlongSideKhaos|Amnesia|Dream|Sleep|Wake|Void|Silence|Echo)\.md$') {
+    if ($filename -match "^(KHAOS|Mirror|THE-VOID|THE-MIrROR|WalkAlongSideKhaos|Amnesia|Dream|Sleep|Wake|Void|Silence|Echo)\.md$") {
         $script:statesArray += $file
         $script:states++
         Write-Host "[◯] $filename → States" -ForegroundColor Cyan
@@ -90,7 +90,7 @@ function Classify-Orphan($file) {
     }
     
     # Numbered files (Orphan_X.md)
-    if ($filename -match '^Orphan_\d+\.md$') {
+    if ($filename -match "^Orphan_\d+\.md$") {
         $script:numberedArray += $file
         $script:numbered++
         Write-Host "[#] $filename → Numbered" -ForegroundColor Cyan
@@ -136,8 +136,7 @@ try {
             exit 1
         }
     }
-}
-catch {
+} catch {
     Write-Warning "Could not detect git branch"
 }
 
@@ -163,8 +162,7 @@ foreach ($folder in $folders) {
     if (-not (Test-Path $folder)) {
         New-Item -ItemType Directory -Path $folder -Force | Out-Null
         Write-Success "Created: $folder/"
-    }
-    else {
+    } else {
         Write-Warning "Already exists: $folder/"
     }
 }
@@ -202,12 +200,10 @@ foreach ($file in $emptyArray) {
         $output = git mv $file ".archive/empty/" 2>&1
         if ($LASTEXITCODE -eq 0) {
             Write-Success "Archived: $filename"
-        }
-        else {
+        } else {
             Write-Warning "Could not move: $filename - $output"
         }
-    }
-    catch {
+    } catch {
         Write-Warning "Could not move: $filename - $_"
     }
 }
@@ -219,12 +215,10 @@ foreach ($file in $interrogativeArray) {
         $output = git mv $file "Orphans/Classified/Questions/" 2>&1
         if ($LASTEXITCODE -eq 0) {
             Write-Success "Moved: $filename → Questions"
-        }
-        else {
+        } else {
             Write-Warning "Could not move: $filename - $output"
         }
-    }
-    catch {
+    } catch {
         Write-Warning "Could not move: $filename - $_"
     }
 }
@@ -236,12 +230,10 @@ foreach ($file in $directiveArray) {
         $output = git mv $file "Orphans/Classified/Directives/" 2>&1
         if ($LASTEXITCODE -eq 0) {
             Write-Success "Moved: $filename → Directives"
-        }
-        else {
+        } else {
             Write-Warning "Could not move: $filename - $output"
         }
-    }
-    catch {
+    } catch {
         Write-Warning "Could not move: $filename - $_"
     }
 }
@@ -253,12 +245,10 @@ foreach ($file in $statesArray) {
         $output = git mv $file "Orphans/Classified/States/" 2>&1
         if ($LASTEXITCODE -eq 0) {
             Write-Success "Moved: $filename → States"
-        }
-        else {
+        } else {
             Write-Warning "Could not move: $filename - $output"
         }
-    }
-    catch {
+    } catch {
         Write-Warning "Could not move: $filename - $_"
     }
 }
@@ -270,12 +260,10 @@ foreach ($file in $symbolicArray) {
         $output = git mv $file "Orphans/Classified/Symbolic/" 2>&1
         if ($LASTEXITCODE -eq 0) {
             Write-Success "Moved: $filename → Symbolic"
-        }
-        else {
+        } else {
             Write-Warning "Could not move: $filename - $output"
         }
-    }
-    catch {
+    } catch {
         Write-Warning "Could not move: $filename - $_"
     }
 }
@@ -287,12 +275,10 @@ foreach ($file in $fragmentsArray) {
         $output = git mv $file "Orphans/Classified/Fragments/" 2>&1
         if ($LASTEXITCODE -eq 0) {
             Write-Success "Moved: $filename → Fragments"
-        }
-        else {
+        } else {
             Write-Warning "Could not move: $filename - $output"
         }
-    }
-    catch {
+    } catch {
         Write-Warning "Could not move: $filename - $_"
     }
 }
@@ -304,12 +290,10 @@ foreach ($file in $numberedArray) {
         $output = git mv $file "Orphans/Numbered/" 2>&1
         if ($LASTEXITCODE -eq 0) {
             Write-Success "Moved: $filename → Numbered"
-        }
-        else {
+        } else {
             Write-Warning "Could not move: $filename - $output"
         }
-    }
-    catch {
+    } catch {
         Write-Warning "Could not move: $filename - $_"
     }
 }
@@ -321,12 +305,10 @@ foreach ($file in $unclassifiedArray) {
         $output = git mv $file "Orphans/Unclassified/" 2>&1
         if ($LASTEXITCODE -eq 0) {
             Write-Success "Moved: $filename → Unclassified"
-        }
-        else {
+        } else {
             Write-Warning "Could not move: $filename - $output"
         }
-    }
-    catch {
+    } catch {
         Write-Warning "Could not move: $filename - $_"
     }
 }
@@ -336,8 +318,9 @@ foreach ($file in $unclassifiedArray) {
 # ============================================
 Write-Header "STEP 4: Creating Category Documentation"
 
-# Questions README
-$questionsReadme = @'
+# Create README files with simple method
+$readmeContents = @{
+    "Orphans/Classified/Questions/README.md" = @"
 ---
 title: Interrogative Orphans - Questions
 category: Orphan Archive
@@ -349,21 +332,9 @@ status: Archive Index
 
 These orphans pose questions to the Angel Machine and its collaborators.
 
-## Files
-
-The questions live here, awaiting response, synthesis, and dialogue.
-
-## Philosophy
-
-Questions are seeds. They invite response, synthesis, and dialogue. These orphans remain questions until someone provides an answer or synthesis.
-
-See `../../../_ORPHAN_TAXONOMY.md` for classification guidance.
-'@
-$questionsReadme | Set-Content "Orphans/Classified/Questions/README.md"
-Write-Success "Created: Questions/README.md"
-
-# Directives README
-$directivesReadme = @'
+See ../../../_ORPHAN_TAXONOMY.md for classification guidance.
+"@
+    "Orphans/Classified/Directives/README.md" = @"
 ---
 title: Directive Orphans - Commands & Actions
 category: Orphan Archive
@@ -375,21 +346,9 @@ status: Archive Index
 
 These orphans prescribe or suggest actions.
 
-## Files
-
-Directives waiting to be acted upon, reversed, or synthesized.
-
-## Philosophy
-
-Actions shape the world. These orphans carry intention and force. They ask: "What if we did this? What would happen?"
-
-See `../../../_ORPHAN_TAXONOMY.md` for classification guidance.
-'@
-$directivesReadme | Set-Content "Orphans/Classified/Directives/README.md"
-Write-Success "Created: Directives/README.md"
-
-# States README
-$statesReadme = @'
+See ../../../_ORPHAN_TAXONOMY.md for classification guidance.
+"@
+    "Orphans/Classified/States/README.md" = @"
 ---
 title: State Orphans - Experiences & Conditions
 category: Orphan Archive
@@ -401,21 +360,9 @@ status: Archive Index
 
 These orphans describe inner states, conditions, and experiences.
 
-## Files
-
-States and experiences of being, becoming, and unbecoming.
-
-## Philosophy
-
-States are the spaces between moments. These orphans capture the texture of existence.
-
-See `../../../_ORPHAN_TAXONOMY.md` for classification guidance.
-'@
-$statesReadme | Set-Content "Orphans/Classified/States/README.md"
-Write-Success "Created: States/README.md"
-
-# Fragments README
-$fragmentsReadme = @'
+See ../../../_ORPHAN_TAXONOMY.md for classification guidance.
+"@
+    "Orphans/Classified/Fragments/README.md" = @"
 ---
 title: Fragment Orphans - Raw Seeds
 category: Orphan Archive
@@ -427,21 +374,9 @@ status: Archive Index
 
 These orphans are poetic scraps, unfinished thoughts, and raw material.
 
-## Files
-
-Fragments waiting to be woven into larger narratives.
-
-## Philosophy
-
-Fragments are the building blocks of meaning. Each one contains potential.
-
-See `../../../_ORPHAN_TAXONOMY.md` for classification guidance.
-'@
-$fragmentsReadme | Set-Content "Orphans/Classified/Fragments/README.md"
-Write-Success "Created: Fragments/README.md"
-
-# Symbolic README
-$symbolicReadme = @'
+See ../../../_ORPHAN_TAXONOMY.md for classification guidance.
+"@
+    "Orphans/Classified/Symbolic/README.md" = @"
 ---
 title: Symbolic Orphans - Notation & Markers
 category: Orphan Archive
@@ -453,21 +388,9 @@ status: Archive Index
 
 These orphans use experimental notation and symbolic markers.
 
-## Files
-
-Symbols and markers of meaning beyond words.
-
-## Philosophy
-
-Symbols encode meaning in form. These orphans experiment with notation as language.
-
-See `../../../_ORPHAN_TAXONOMY.md` for classification guidance.
-'@
-$symbolicReadme | Set-Content "Orphans/Classified/Symbolic/README.md"
-Write-Success "Created: Symbolic/README.md"
-
-# Numbered README
-$numberedReadme = @'
+See ../../../_ORPHAN_TAXONOMY.md for classification guidance.
+"@
+    "Orphans/Numbered/README.md" = @"
 ---
 title: Numbered Archive
 category: Orphan Archive
@@ -479,21 +402,9 @@ status: Archive Index
 
 These orphans are numbered (Orphan_0.md through Orphan_98.md).
 
-## Purpose
-
-Systematic or algorithmic generation. Sequential exploration.
-
-## Philosophy
-
-Numbers represent order, sequence, and counting. Yet each numbered orphan may contain unexpected meaning.
-
-See `../../../_ORPHAN_TAXONOMY.md` for classification guidance.
-'@
-$numberedReadme | Set-Content "Orphans/Numbered/README.md"
-Write-Success "Created: Numbered/README.md"
-
-# Unclassified README
-$unclassifiedReadme = @'
+See ../../../_ORPHAN_TAXONOMY.md for classification guidance.
+"@
+    "Orphans/Unclassified/README.md" = @"
 ---
 title: Unclassified Orphans
 category: Orphan Archive
@@ -505,22 +416,14 @@ status: Archive Index
 
 These orphans are awaiting classification or synthesis.
 
-## Purpose
+See ../../../_ORPHAN_TAXONOMY.md for guidance on synthesis and graduation.
+"@
+}
 
-A temporary holding space for orphans whose category is uncertain.
-
-## What to Do
-
-Consider each orphan here:
-1. Does it belong in another category?
-2. Does it need synthesis into a larger work?
-3. Should it be archived?
-4. Is it ready to graduate?
-
-See `../../../_ORPHAN_TAXONOMY.md` for guidance on synthesis and graduation.
-'@
-$unclassifiedReadme | Set-Content "Orphans/Unclassified/README.md"
-Write-Success "Created: Unclassified/README.md"
+foreach ($path in $readmeContents.Keys) {
+    Set-Content -Path $path -Value $readmeContents[$path]
+    Write-Success "Created: $(Split-Path $path -Leaf)"
+}
 
 # ============================================
 # STEP 5: Summary Report
@@ -555,8 +458,7 @@ try {
     Write-Host "`nTo commit these changes:"
     Write-Host "  git commit -m 'Phase 1c: Classify and reorganize orphan files'" -ForegroundColor Gray
     
-}
-catch {
+} catch {
     Write-Warning "Could not check git status: $_"
 }
 
